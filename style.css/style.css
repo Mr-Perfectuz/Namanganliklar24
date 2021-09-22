@@ -165,12 +165,11 @@ body{
 
 /* Site nav  */
 .site-nav{
-     width: 1200px;
      background-color: #fff;
      margin-top: 30px;
      font-weight: 500;
      font-size: 18px;
-     line-height: 21px;
+     line-height: 1px;
 
 }
 .sitenav-list{
@@ -179,8 +178,6 @@ body{
      list-style: none;
      padding: 0;
      margin: 0;
-     display: flex;
-     align-items: center;
      padding-bottom: 20px;
      border-bottom: 1px solid #d1d1d1;
 }
