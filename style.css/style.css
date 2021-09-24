@@ -54,13 +54,13 @@ body{
      padding: 0;
 }
 
-.logo-text h2{
+/* .logo-text image{
      font-size: 24px;
      font-weight: 700;
      line-height: 28.5px;
      padding: 9px 6px 8px 6px;
      margin: 0;
-}
+} */
 
 .currency{
      display: flex;
