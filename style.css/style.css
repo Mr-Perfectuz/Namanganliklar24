@@ -36,6 +36,7 @@ body{
      align-items: center;
      justify-content: space-between;
      background-color: #f6f6f6;
+
 }
 
 .left-header{
@@ -166,15 +167,23 @@ body{
 
 /* Site nav  */
 .site-nav{
+     display: flex;
+     align-items: center;
      background-color: #fff;
      margin-top: 30px;
-     font-weight: 500;
-     font-size: 18px;
-     line-height: 1px;
+     /* margin-right: 120px; */
+     /* margin-left: 120px; */
+
+
+}
+.container-nav{
+     background-color: #fff;
+     margin-top: 30px;
 
 }
 .sitenav-list{
      display: flex;
+     justify-content: space-between;
      align-items: center;
      list-style: none;
      padding: 0;
@@ -183,6 +192,7 @@ body{
      border-bottom: 1px solid #d1d1d1;
 }
 
+
 .sitenav-item:not(:last-child) {
      margin-right: 34.44px;
 }
@@ -190,4 +200,7 @@ body{
 .sitenav-link{
      color: #7f7f7f;
      text-decoration: none;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 1px;
 }
