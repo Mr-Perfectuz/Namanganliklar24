@@ -167,16 +167,12 @@ body{
 
 /* Site nav  */
 .site-nav{
-     display: flex;
-     align-items: center;
      background-color: #fff;
      margin-top: 30px;
-     /* margin-right: 120px; */
-     /* margin-left: 120px; */
-
-
 }
 .container-nav{
+     align-items: center;
+     display: flex;
      background-color: #fff;
      margin-top: 30px;
 
