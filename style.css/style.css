@@ -20,8 +20,6 @@ body{
 
 /* CONTAINER  */
 .container{
-     display: flex;
-     justify-content: space-between;
      width: 100%;
      max-width: 1260px;
      padding-left: 30px;
@@ -37,6 +35,12 @@ body{
      justify-content: space-between;
      background-color: #f6f6f6;
 
+}
+
+.header-inner{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 }
 
 .left-header{
@@ -67,6 +71,7 @@ body{
      display: flex;
      font-size: 16px;
      margin-left: 35px;
+     /* margin-right: ; */
 }
 .currency-wrapper:first-child {
      margin-right: 25px;
@@ -166,17 +171,15 @@ body{
 }
 
 /* Site nav  */
-.site-nav{
-     background-color: #fff;
-     margin-top: 30px;
-}
-.container-nav{
-     align-items: center;
-     display: flex;
-     background-color: #fff;
+.nav{
      margin-top: 30px;
 
 }
+.nav-innner{
+     display: flex;
+     justify-content: space-between;
+}
+
 .sitenav-list{
      display: flex;
      justify-content: space-between;
@@ -189,9 +192,9 @@ body{
 }
 
 
-.sitenav-item:not(:last-child) {
+/* .sitenav-item:not(:last-child) {
      margin-right: 34.44px;
-}
+} */
 
 .sitenav-link{
      color: #7f7f7f;
