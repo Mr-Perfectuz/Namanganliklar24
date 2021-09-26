@@ -192,14 +192,32 @@ body{
 }
 
 
-/* .sitenav-item:not(:last-child) {
-     margin-right: 34.44px;
-} */
-
 .sitenav-link{
      color: #7f7f7f;
      text-decoration: none;
      font-weight: 500;
      font-size: 18px;
      line-height: 1px;
+}
+
+/* ShopMe raklama banneri  */
+#shopme{
+     margin-top: 40px;
+}
+/* Hero-top  */
+.hero-top{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.hero-content{
+     width: 393px;
+
+}
+
+/* Hero-bottom  */
+.hero-bottom{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 }
