@@ -249,11 +249,14 @@ body{
      margin: 15px 0px;
      display: flex;
      align-items: center;
+     margin: 0;
+     padding: 0;
 }
 
 .hero-source img{
      border-radius: 5px;
      margin-right: 10px;
+
 }
 
 .hero-source span{
