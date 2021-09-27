@@ -52,10 +52,9 @@ body{
 .logo-text {
      text-decoration: none;
      color: #7296ee;
-     background-color: #fff;
+     /* background-color: #fff; */
      border-radius: 7px;
-     margin-top: 30px;
-     margin-bottom: 30px;
+     align-items: center;
      padding: 0;
 }
 
