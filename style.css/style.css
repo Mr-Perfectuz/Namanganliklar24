@@ -402,12 +402,11 @@ body{
      margin-top: 30px;
 }
 
-.footer-section{
-     width: 1440px;
-     margin-left: 121px;
+.footer-inner{
+     /* width: 1440px; */
      display: flex;
      align-items: center;
-     /* justify-content: space-between; */
+     justify-content: space-around;
 }
 
 
@@ -430,9 +429,25 @@ body{
      color: #fff;
 }
 
+
+
 .footer-list {
      list-style-type: none;
 }
 .footer-list li a{
      color: #fff;
+     text-decoration: none;
+     font-size: 16px;
+     line-height: 19px;
+     font-weight: 500;
+}
+
+.footer-list li:not(:last-child){
+     margin-bottom: 20px;
+}
+
+.footer-line{
+     background: #CECECE;
+     width: 998px;
+     height: 1px;
 }
