@@ -284,18 +284,71 @@ body{
      margin-top: 10px;
 }
 
+.hero-img{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+}
+
+.hero-link{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+}
 /* Notification picture  */
 .Notifications{
      max-width: 1050px;
      width: 100%;
+     height: 100px;
      margin-right: auto;
      margin-left: auto;
      margin-top: 60px;
+     background-image: url(/photos/shopme.png);
+     background-repeat: no-repeat;
+
+}
+.notifications-inner{
+     display: flex;
+     justify-content: space-between;
+}
+.Notifications h2{
+     margin: 0;
+     padding: 0;
+     margin-top: 24px;
+     margin-left: 29px;
+     width: 404px;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 26px;
+}
+
+.Notifications a{
+     display: flex;
+     align-items:center;
+     padding: 0;
+     margin: 0;
+     padding-left: 30px;
+     width: 150px;
+     height: 50px;
+     color: #fff;
+     background-color: #F78B3B;
+     text-decoration: none;
+     border-radius: 10px;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 24px;
+     margin-top: 25px;
+     margin-right: 71px;
 }
 
 /* News  */
 .news-head{
+
      margin-top: 60px;
+}
+.news-head h1{
+     padding: 0;
+     margin: 0;
 }
 .news-section{
      margin-top: 20px;
@@ -339,6 +392,13 @@ body{
      margin-top: 0;
 }
 
+.news-links{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+}
+
+
 .news-time span{
      margin-left: 15px;
      font-size: 12px;
@@ -347,6 +407,8 @@ body{
 
 /* News Right  */
 .news-right{
+     /* padding: 0;
+     margin: 0; */
      margin-left: 10px;
 }
 .news-right-content{
@@ -360,29 +422,42 @@ body{
      /* padding-top: 20px; */
 }
 .news-right-content h2{
+     padding: 0;
+     margin: 0;
      margin-left: 17px;
      margin-top: 20px;
 }
+
+.news-right-text h3{
+     margin: 0;
+     padding: 0;
+}
 .news-right-text{
      margin-left: 17px;
+     padding-top: 17px;
 }
 
-.news-right-text hr{
-     border: 1px solid #D2D2D2;
-     width: 359px;
-     text-align: center;
-     margin: auto;
+.news-right-text{
+     border-bottom: 1px solid #D2D2D2;
+     margin-right: 17px;
+     /* padding-bottom: 20px; */
 }
-
 .news-right-image{
      border-radius: 15px;
      margin-top: 10px;
+
 }
 
+.news-addition h3{
+     margin: 0;
+     padding: 0;
+     padding-top: 17px;
+}
 .news-addition{
+     width: 796px;
+     height: 53px;
      border: 1px solid #EAEAEA;
      background-color: #F6F6F6;
-     width: 796px;
      border-radius: 10px;
 }
 
