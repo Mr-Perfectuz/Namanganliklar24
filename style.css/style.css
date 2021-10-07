@@ -62,6 +62,14 @@ body{
      padding: 0;
 }
 
+.logo-text:hover{
+     opacity: 0.8;
+}
+.logo-text:active{
+     opacity: 0.6;
+}
+
+
 /* .logo-text image{
      font-size: 24px;
      font-weight: 700;
@@ -171,6 +179,13 @@ body{
      text-decoration: none;
      border-radius: 10px;
 
+}
+
+.btn a:hover{
+     opacity: 0.8;
+}
+.btn a:active{
+     opacity: 0.6;
 }
 
 /* Site nav  */
