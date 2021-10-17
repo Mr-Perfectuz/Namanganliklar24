@@ -581,8 +581,75 @@ body{
      text-decoration: none;
      color:#000000;
 }
+ /* FBM  */
+.main{
+     margin-top: 50px;
+}
+
+.main-left-section{
+     width: 797px;
+}
+
+.main-logo{
+     margin: 0;
+     padding: 0;
+     margin-bottom: 30px;
+}
+.main-logo-link{
+     margin-left: 0;
+     margin: 0;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 17px;
+     color: #5E5F61;
+}
+
+.main-heading{
+     font-style: normal;
+     font-weight: 500;
+     font-size: 26px;
+     line-height: 36px;
+     color: #000000;
+     font-family: "Rubik" , "Arial", sans-serif;
+
+}
+
+.main-text-wrapper{
+     width: 797px;
+     color: #000000;
+     padding-bottom: 50px;
+     border-bottom: 1px solid #D2D2D2;
+
+}
+
+.main-text{
+     padding: 0;
+     margin: 0;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 30px;
+     color: #000000;
+}
+
+/* FURTHER NEWS  */
+.further-news{
+     margin-top: 60px;
+}
 
 
+.further-heading{
+     font-family: "Rubik" , "Arial", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 28px;
+     color: #000000;
+}
 
 /* Footer  */
 .footer{
@@ -590,6 +657,7 @@ body{
      /* max-width: 1440px; */
      /* width: 100%; */
      background-color: #7297EF;
+     flex-grow: 1;
 }
 .footer-section{
      margin: 0;
