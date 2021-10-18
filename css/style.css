@@ -83,12 +83,13 @@ body{
 }
 
 .logo-text {
+     margin: 0;
      text-decoration: none;
      color: #7296ee;
-     /* background-color: #fff; */
      border-radius: 7px;
      align-items: center;
      padding: 0;
+     height: 45px;
 }
 
 .logo-text:hover{
@@ -98,14 +99,6 @@ body{
      opacity: 0.6;
 }
 
-
-/* .logo-text image{
-     font-size: 24px;
-     font-weight: 700;
-     line-height: 28.5px;
-     padding: 9px 6px 8px 6px;
-     margin: 0;
-} */
 
 .currency{
      display: flex;
@@ -537,7 +530,14 @@ body{
      text-decoration: none;
      color: #000000;
 }
-
+.news-right-text-link:hover{
+     opacity: 0.8;
+     color: #4A4B4C;
+}
+.news-right-text-link:active{
+     opacity: 0.6;
+     color: #787879
+}
 .news-right-text p{
      font-family: "Rubik" , "Arial", sans-serif;
      font-style: normal;
