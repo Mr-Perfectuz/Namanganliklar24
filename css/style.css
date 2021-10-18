@@ -806,6 +806,143 @@ body{
 .further-news-heading-link h3:active{
      opacity: 0.6;
 }
+
+/* CONTACT INFO  */
+.contact-inner{
+     display: flex;
+     justify-content: space-between;
+
+}
+.contact-info{
+}
+.contact-info-heading{
+     margin: 0;
+     padding: 0;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 28px;
+     color: #000000;
+     font-family: "Rubik" , "Arial", sans-serif;
+     margin-top: 60px;
+}
+
+.contact-form{
+     margin-top: 20px;
+}
+
+.contact-input{
+     width: 696px;
+}
+.input-data{
+     display: flex;
+     align-items: space-between;
+}
+
+.input-general{
+     border-radius: 10px;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 19px;
+     font-family: "Rubik" , "Arial", sans-serif;
+     padding-left: 20px;
+     border: 0.1px solid #000000;
+
+}
+.input-name{
+     width: 343px;
+     height: 55px;
+     margin-right: 10px;
+}
+
+.input-phone-number{
+     height: 55px;
+     width: 343px;
+}
+.input-email{
+     height: 55px;
+     width: 696px;
+     margin-top: 10px;
+}
+.submit-text{
+     margin-top: 10px;
+     display: flex;
+     align-items:flex-end;
+     margin-left: 550px;
+}
+.input-text{
+     margin-top: 10px;
+     padding-top: 18px;
+     resize: none;
+}
+
+.submit-button{
+     width: 145px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+     color: #FFFFFF;
+     background-color: #7297EF;
+     padding-top: 17px;
+     padding-bottom: 17px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+
+}
+.submit-button:hover{
+     opacity: 0.8;
+}
+
+.submit-button:active{
+     opacity: 0.6;
+}
+.contact-data{
+     margin: 0;
+     padding: 0;
+}
+.contact-box{
+     margin: 0;
+     padding: 0;
+     width: 494px;
+     background-color: #F6F6F6;
+     border-radius: 10px;
+     margin-top: 20px;
+     padding-top: 10px;
+}
+.info-contact{
+     margin-left: 25px;
+     padding-bottom: 20px;
+     margin-right: 25px;
+}
+
+.info-contact:not(:last-child){
+     border-bottom: 1px solid #D2D2D2;
+}
+.info-contact-heading{
+     margin: 0;
+     padding: 0;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 24px;
+     color: #000000;
+     font-family: "Rubik" , "Arial", sans-serif;
+     margin-top: 20px;
+
+}
+.info-contact-text{
+     margin: 0;
+     padding: 0;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 19px;
+     color: #000000;
+     font-family: "Rubik" , "Arial", sans-serif;
+     margin-top: 7px;
+}
 /* Footer  */
 .footer{
      margin-top: 100px;
