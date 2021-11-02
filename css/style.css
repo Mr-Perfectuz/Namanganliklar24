@@ -891,6 +891,7 @@ body{
      cursor: pointer;
 
 }
+
 .submit-button:hover{
      opacity: 0.8;
 }
@@ -942,6 +943,48 @@ body{
      color: #000000;
      font-family: "Rubik" , "Arial", sans-serif;
      margin-top: 7px;
+}
+
+/* SITE_FOOTER */
+.site-footer {
+     padding-top: 40px;
+     padding-bottom: 40px;
+     background-color: #7297EF;
+     color: #fff;
+}
+
+.site-footer-logo-wrapper {
+     display: flex;
+}
+.site-footer-logo {
+     display: flex;
+}
+.site-footer-logo-img {
+     object-fit: contain;
+     width: 264px;
+     height: 28px;
+}
+.site-footer-about-links {
+}
+.site-footer-about {
+}
+.site-footer-links-wrapper {
+}
+.site-footer-links {
+}
+.site-footer-links-item {
+}
+.site-footer-link {
+}
+.site-footer-divider {
+}
+.site-footer-socials {
+}
+.site-footer-socials-heading {
+}
+.site-footer-socials-list {
+}
+.footer-list {
 }
 /* Footer  */
 .footer{
